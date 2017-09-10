@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+.check_area {
+	text-align: center;
+	padding: 45px;
+}
+		/*---Switch styles---*/
+  /* Checkbox*/ 
+  .switch input {
+    cursor: pointer;
+height: 85%;
+opacity: 0;
+position: absolute;
+width: 85%;
+z-index: 100;
+left: 0;
+top: 0; }
+   .switch {
+    height: 26px;
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    bottom: -3px; }
+   .switch label {
+    background: #FF7A7A;
+    border-radius: 50px;
+    display: block;
+    height: 100%;
+    position: relative;
+    transition: all .15s ease;
+    width: 100%; }
+   .switch label span {
+    background: #fff;
+    border-radius: 33px;
+    display: block;
+    height: 20px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    transition: all .15s ease;
+    width: 20px;
+    z-index: 3; }
+  .switch input:checked ~ label {
+    background: #487BF5; }
+  .switch input:checked ~ label span {
+    left: 26px; }
+	</style>
+</head>
+<body>
+
+<div class="check_area">
+	<div class="switch pull-right">
+                                <input checked="" type="checkbox">
+                                <label>
+                                    <span></span>
+                                </label>
+                            </div>
+</div>
+<div class="check_area">
+	<div class="switch pull-right">
+                                <input type="checkbox">
+                                <label>
+                                    <span></span>
+                                </label>
+                            </div>
+</div>
+</body>
+</html>
