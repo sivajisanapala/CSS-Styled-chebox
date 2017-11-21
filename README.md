@@ -1,3 +1,4 @@
 # CSS-Styled-checkbox
-Simple and pure css styles checkboxes
-Demo: https://htmlpreview.github.io/?https://github.com/sivajisanapala/CSS-Styled-checkbox/blob/master/index.html
+Simple, lightweight and pure css styles checkboxes.
+You can just simply add the checkbox styles code into your files.
+You can preview the Demo in the above proveded link.
